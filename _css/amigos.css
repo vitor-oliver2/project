@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+section#conteudo {
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	/*float: right;*/
+}
+
+iframe#frame-amigos {
+	width: 450px;
+	height: 700px;
+	border: none;
+	position: relative;
+	top: -412px;
+	left: 450px;
+	margin-right: 0px;
+	/*float: right;*/
+	/*top: 0px;*/
+	/*display: block;*/
+}
+
+img#poze {
+	/*position: absolute;*/
+	/*margin-top: 160px;*/
+	width: 450px;
+	height: 350px;
+}
