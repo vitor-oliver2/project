@@ -13,7 +13,8 @@ div#interface {
 body {
 	color: #ffffff;
 	font-family: customFont;
-	background-image: url("../_images/fundo.jpg");
+	background-image: url("../_images/fundo.png");
+
 }
 
 /* fonte personalizada */
@@ -138,3 +139,19 @@ footer#rodape a.twitter {
 	height: 30px;
 }
 
+footer#rodape span:hover {
+	color: #5271ff;
+}
+
+footer#rodape span {
+	transition: color .4s;
+}
+
+img#lampada {
+	/*position: absolute;*/
+	position: relative;
+	top: -75px;
+	left: 500px;
+	width: 75px;
+	height: 75px;
+}
