@@ -4,6 +4,7 @@
 	<title>Poze do Rodo</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="_css/style.css">
+	<link rel="stylesheet" type="text/css" href="_css/form.css">
 </head>
 <body>
 <div id="interface">
@@ -21,6 +22,41 @@
 		</nav>
 
 	</header>
+
+	<div id="inicio-form">
+		<h1>Gostou?</h1>
+		<img id="like" src="_images/Icons/like.png">
+
+		<p>Entre em contato e faça parte agora mesmo! <br>
+		(Perfil Sujeito a severa análise)</p>
+	</div>
+
+	<form method="post" id="fContato" action="../_php/connect.php">
+		<fieldset id="pessoa">
+			<legend id="legenda">Dados Pessoais</legend>
+			<p><label for="cNome"> Nome: <input type="text" name="tNome" id="cNome" size="20" maxlength="50" placeholder="Nome Completo"></label></p>
+			<p><label for="cEmail"> E-mail: <input type="text" name="tEmail" id="cEmail" size="20" maxlength="100" placeholder="exemplo@mail.com"></label></p>
+			<p><label for="cTel"> Telefone: <input type="number" name="tTel" id="cTel" size="20" maxlength="11" placeholder="(00)00000-0000">
+
+			<fieldset id="sexo">
+            	<legend>Sexo:</legend>
+            	<input type="radio" name="tSexo" id="cMasc" value="M"> <label for="cMasc">Masculino</label><br>
+            	<input type="radio" name="tSexo" id="cFem" value="F"> <label for="cFem">Feminino</label>
+        	</fieldset>
+
+  			<p><label for="cNasc"> Data de Nascimento <input type="date" name="tNasc" id="cNasc"></label></p>
+		</fieldset>
+	
+		<fieldset id="mensagem">
+			<legend id="legenda">Mensagem</legend>
+			<p><label for="cMsg"> Escreva o porque você deve fazer parte deste grupo: </label></p> <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Digite aqui sua mensagem"></textarea>
+		</fieldset>
+
+		<!-- <button id="enviar" type="submit">Enviar</button> -->
+		<!-- <input type="button" id="enviar" name="tEnviar" value="Enviar"> -->
+		<button id="enviar" type="submit">Enviar</button>
+	</form>
+
 
 	<footer id="rodape">
 		<a class="face" href="https://www.facebook.com/profile.php?id=100004323303945" target="_blank"></a>

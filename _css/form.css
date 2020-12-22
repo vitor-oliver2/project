@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* fonte personalizada */
+@font-face {
+  font-family: customFont;
+  src: url("../_font/BukhariScript-lemD.ttf");
+}
+
+div#inicio-form {
+	text-align: center;
+	margin: 35px;
+}
+
+div#inicio-form p {
+	text-align: center;
+	margin-top: -35px;
+}
+
+form {
+	width: 600px;
+	margin: auto;
+	padding-bottom: 35px;
+}
+
+input:hover, textarea:hover {
+	background-color: #545454;
+	color: #ffffff;
+}
+
+fieldset {
+	border: 2px dashed #545454;
+	margin: 20px;
+}
+
+img#like {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	top: -70px;
+	left: 90px;
+}
+
+legend#legenda {
+	color: #5271ff;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+textarea#cMsg {
+	margin: auto;
+	display: block;
+	position: relative;
+}
+
+button#enviar {
+	background-color: #5271ff;
+	color: #ffffff;
+	border-radius: 12px;
+	border: none;
+	padding: 10px;
+	font-family: customFont;
+	margin-left: 15px;
+	transition: background-color .4s;
+	font-size: 11pt;
+}
+
+button#enviar:hover {
+	background-color: #545454;
+	cursor: pointer;
+}

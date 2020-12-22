@@ -27,11 +27,17 @@ p {
 	text-align: justify;
 	text-indent: 30px;
 	font-size: 12pt;
+	font-weight: 250;
 }
 
 div#interface h1 {
 	color: #5271ff;
 	font-size: 18pt;
+}
+
+div#interface h2 {
+	color: #5271ff;
+	font-size: 14pt;
 }
 
 /* formatação do cabeçalho */
@@ -98,6 +104,18 @@ aside#lateral {
 	/*padding: 10px;*/
 }
 
+figure#foto-noticia {
+	border: 1px dashed #545454;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+}
+
+figure#foto-noticia figcaption {
+	font-size: 10pt;
+	padding: 5px;
+}
+
 footer#rodape {
 	clear: both;
 	border-top: 1px dashed #545454;
@@ -141,6 +159,7 @@ footer#rodape a.twitter {
 
 footer#rodape span:hover {
 	color: #5271ff;
+	cursor: pointer;
 }
 
 footer#rodape span {
