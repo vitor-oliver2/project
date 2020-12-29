@@ -22,11 +22,11 @@ try {
 	$mail->isSMTP();
 	$mail->Host = 'smtp.gmail.com';
 	$mail->SMTPAuth = true;
-	$mail->Username = 'trakiller02@gmail.com';
-	$mail->Password = 'Vitor1892@';
+	$mail->Username = 'pozedurodo2020@gmail.com';
+	$mail->Password = 'isananajpvit@2020';
 	$mail->Port = 587;
 
-	$mail->setFrom('trakiller02@gmail.com');
+	$mail->setFrom('pozedurodo2020@gmail.com');
 	$mail->addAddress('trakiller02@gmail.com');
 	// $mail->addAddress('endereco2@provedor.com.br');
 
