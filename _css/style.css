@@ -12,10 +12,17 @@ div#interface {
 /* fundo do site, cor da letra e fonte */
 body {
 	color: #ffffff;
-	font-family: customFont;
+	font-family: customFont3;
 	background-image: url("../_images/fundo.png");
 
 }
+
+/*body {
+	color: #ffffff;
+	font-family: customFont2;
+	background-image: url("../_images/fundo.png");
+
+}*/
 
 /* fonte personalizada */
 @font-face {
@@ -23,21 +30,50 @@ body {
   src: url("../_font/BukhariScript-lemD.ttf");
 }
 
-p {
+/* fonte personalizada 2 */
+
+@font-face {
+  font-family: customFont2;
+  src: url("../_font/Quicksand-VariableFont_wght.ttf");
+}
+
+/* fonte personalizada 3 */
+
+@font-face {
+  font-family: customFont3;
+  src: url("../_font/PatrickHand-Regular.ttf");
+}
+
+/*p {
 	text-align: justify;
 	text-indent: 30px;
 	font-size: 12pt;
-	font-weight: 250;
+	font-weight: 200;
+}*/
+
+p {
+	text-align: justify;
+	text-indent: 30px;
+	font-size: 14pt;
+	font-weight: 500;
 }
 
 div#interface h1 {
 	color: #5271ff;
-	font-size: 18pt;
+	font-size: 19pt;
+	font-family: customFont3;
+	font-weight: bold;
+	text-shadow: 2px 1px 1px #000000;
+	/*font-weight: 200;*/
+	/*text-shadow: 2px 1px 1px #5271ff;*/
 }
 
 div#interface h2 {
-	color: #5271ff;
-	font-size: 14pt;
+	color: #ffffff;
+	font-size: 16pt;
+	font-family: customFont3;
+	font-weight: bold;
+	text-shadow: 2px 1px 1px #5271ff;
 }
 
 /* formatação do cabeçalho */
@@ -49,6 +85,7 @@ header#cabecalho {
 	height: 180px;
 	width: 900px;
 	border-bottom: 1px #545454 dashed;
+	font-family: customFont;
 }
 
 /* formatação do menu */
@@ -105,15 +142,18 @@ aside#lateral {
 }
 
 figure#foto-noticia {
-	border: 1px dashed #545454;
+	margin-left: 22px;
+}
+
+figure#foto-noticia img {
 	padding: 5px;
-	margin: 10px;
-	text-align: center;
+	border: 1px solid #545454;
+	/*margin: auto;*/
 }
 
 figure#foto-noticia figcaption {
-	font-size: 10pt;
-	padding: 5px;
+	font-size: 11pt;
+	/*padding: 5px;*/
 }
 
 footer#rodape {
@@ -162,8 +202,13 @@ footer#rodape span:hover {
 	cursor: pointer;
 }
 
+footer#rodape {
+	font-family: customFont;
+}
+
 footer#rodape span {
 	transition: color .4s;
+	/*font-family: customFont;*/
 }
 
 img#lampada {

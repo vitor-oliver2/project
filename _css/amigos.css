@@ -29,6 +29,10 @@ img#poze {
 
 iframe#frame-amigos {
 	width: 400px;
-	height: 540px;
+	height: 580px;
 	border: none;
+}
+
+aside#integrantes {
+	padding-bottom: 20px;
 }
