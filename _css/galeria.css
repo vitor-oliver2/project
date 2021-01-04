@@ -112,3 +112,39 @@ ul#galeria li#foto6:hover {
 	background-position: 0px 0px;
 	background-size: 200px 200px;
 }
+
+ul#galeria li#foto7 {
+	background: url("../_images/foto7.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#galeria li#foto7:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto8 {
+	background: url("../_images/foto8.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#galeria li#foto8:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#galeria li#foto9 {
+	background: url("../_images/foto9.jpg") no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#galeria li#foto9:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}

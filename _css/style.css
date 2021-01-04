@@ -142,17 +142,21 @@ aside#lateral {
 }
 
 figure#foto-noticia {
-	margin-left: 22px;
+	margin-left: 10px;
 }
 
 figure#foto-noticia img {
 	padding: 5px;
 	border: 1px solid #545454;
+	width: 250px;
+	height: 250px;
 	/*margin: auto;*/
 }
 
 figure#foto-noticia figcaption {
 	font-size: 11pt;
+	text-align: center;
+	padding-left: 25px;
 	/*padding: 5px;*/
 }
 
