@@ -2,7 +2,7 @@
 
 /* fundo do texto */
 div#interface {
-	background-color: #323232;
+	background-color: /*#8d1313;*/ #ffffff;
 	width: 900px;
 	padding: 30px;
 	margin: -20px auto -20px auto;
@@ -11,9 +11,9 @@ div#interface {
 
 /* fundo do site, cor da letra e fonte */
 body {
-	color: #ffffff;
+	color: #000000;
 	font-family: customFont3;
-	background-image: url("../_images/fundo.png");
+	background-image: url("../_images/fundo_morango.png");
 
 }
 
@@ -59,7 +59,7 @@ p {
 }
 
 div#interface h1 {
-	color: #5271ff;
+	color: #4d0c0c;
 	font-size: 19pt;
 	font-family: customFont3;
 	font-weight: bold;
@@ -73,18 +73,20 @@ div#interface h2 {
 	font-size: 16pt;
 	font-family: customFont3;
 	font-weight: bold;
-	text-shadow: 2px 1px 1px #5271ff;
+	text-shadow: 2px 1px 1px #4d0c0c;
 }
 
 /* formatação do cabeçalho */
 header#cabecalho {
-	background-image: url("../_images/logo_grey2.jpg");
-	margin-top: 0px;
-	background-size: 190px 125px;
+	background-image: url("../_images/logo.png");
+	background-color: #8d1313;
+	margin-top: -50px;
+	margin-left: -30px;
+	background-size: 190px 150px;
 	background-repeat: no-repeat;
 	height: 180px;
-	width: 900px;
-	border-bottom: 1px #545454 dashed;
+	width: 1000px;
+	border-bottom: 1px #ffffff dashed;
 	font-family: customFont;
 }
 
@@ -124,8 +126,8 @@ nav#menu a:hover {
 }
 
 section#corpo {
-	width: 565px;
-	border-right: 1px dashed #545454; 
+	/*width: 565px;
+	border-right: 1px dashed #545454;*/
 	padding-right: 20px;
 	margin-right: 0px;
 	display: block;
@@ -133,13 +135,14 @@ section#corpo {
 	/*padding: 10px;*/
 }
 
-aside#lateral {
+/*aside#lateral {
 	display: block;
 	width: 280px;
 	float: right;
 	padding-left: 0px;
-	/*padding: 10px;*/
-}
+	/*padding: 10px;
+	}*/
+
 
 figure#foto-noticia {
 	margin-left: 10px;
