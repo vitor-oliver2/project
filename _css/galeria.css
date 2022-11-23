@@ -17,7 +17,7 @@ ul#galeria li {
 	width: 200px;
 	height: 200px;
 	margin: 10px;
-	border: 2px solid #5271ff; 
+	border: 2px solid #7ED957; 
 	background-color: #ffffff;
 	box-shadow: 1px 1px 3px rgba(0,0,0, .4);
 	-webkit-transition: all .4s ease-in;
@@ -44,7 +44,7 @@ ul#galeria li:hover span {
 ul#galeria li#foto1 {
 	background: url("../_images/foto1.jpg") no-repeat;
 	background-position: 50% 50%;
-	background-size: 400px 400px;
+	background-size: 400px 533px;
 	background-color: #ffffff;
 }
 

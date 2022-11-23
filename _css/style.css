@@ -1,15 +1,17 @@
 @charset "UTF-8";
 
 /* fundo do texto */
+html{
+	overflow-x:hidden; /*para não mostrar a barra de rolagem*/
+}
+
 div#interface {
 	background-color: #012711;
 	width: 900px;
 	padding: 30px;
 	border-radius: 30px;
 	border: 1.5px solid white;
-	/*margin: -20px auto -20px auto;*/
 	margin: auto;
-	overflow: hidden; /*propriedade que permite que o elemento pai div aplique sua formação mesmo quando seus 'filhos' estiverem flutuando pela interface*/
 }
 
 /* fundo do site, cor da letra e fonte */
@@ -18,13 +20,6 @@ body {
 	font-family: customFont3;
 	background-image: url("../_images/fundo_morango.png");
 }
-
-/*body {
-	color: #ffffff;
-	font-family: customFont2;
-	background-image: url("../_images/fundo.png");
-
-}*/
 
 /* fonte personalizada */
 @font-face {
